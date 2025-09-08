@@ -1,0 +1,68 @@
+*{
+  padding: 0%;
+  margin: 0%;
+
+}
+  body {
+  background: linear-gradient(to right, #4da0ff, #8cb4ff);
+  min-height: 100vh;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weather-container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.weather-icon {
+  font-size: 4rem;
+  color: #ffa500;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.city-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.weather-details {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.loading-spinner {
+  text-align: center;
+  padding: 30px;
+}
+
+.instructions {
+  background-color: #e9f7ff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.step-number {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 10px;
+}
